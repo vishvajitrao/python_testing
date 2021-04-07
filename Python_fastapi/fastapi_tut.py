@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from enum import Enum
-from typing import Optional
+from typing import Optional, List
+from fastapi import Query, Path
 import uuid
 
 from pydantic import BaseModel
@@ -55,15 +56,35 @@ app = FastAPI()
 #Request body:- Request body are the data sent by client to the API.
 # To declare a request body in the FastAPI, we will use pydantic.
 
-class UserDetails(BaseModel):
-    name: str
-    username: str
-    email: str
-    password: str
+# class UserDetails(BaseModel):
+#     name: str
+#     username: str
+#     email: str
+#     password: str
 
 
-@app.post("/user")
-def simple(user_detail: UserDetails):
-    return user_detail
+# @app.post("/user")
+# def simple(user_detail: UserDetails):
+#     return user_detail
+
+
+# @app.get("/user")
+# def simple(q: Optional[str] = Query(default="This is the FastaApi", max_length=40)):
+#     return {"name": q}
+
+#Alias parameter
+# @app.get("/user")
+# def simple(q: List[str] = Query(title="Query title", description="You can pass any text in query", default=["foo", "bar"], alias="query-item")):
+#     return {"name": q}
+
+
+#Path parameter with numeric values
+#control the integer value limit using ge and le parameter of the Path() function
+@app.get("/user/{age}")
+def simple(age: Optional[int] = Path(default=24, title="This is title", ge=0, le=30), q: Optional[str] = Query(title="Query title", description="You can pass any text in query", default="Vishvajit Rao", alias="query-item"),
+           ):
+    return {"name": q, "age": age}
+
+
 
 
