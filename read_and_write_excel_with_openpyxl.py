@@ -128,17 +128,6 @@ class WorkPackage(Base):
 # print(sheet_object.mime_type)
 
 
-
-
-
-
-
-
-
-
-
-
-
 # Write excel file using Python openpyxl
 wb = Workbook()
 ws1 = wb.active
