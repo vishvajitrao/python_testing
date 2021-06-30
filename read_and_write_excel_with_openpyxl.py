@@ -12,7 +12,7 @@ from sqlalchemy import (
 )
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
-from openpyxl import load_workbook, Workbook
+# from openpyxl import load_workbook, Workbook
 
 # working with database with the help of SQLAlchemy
 engine = create_engine("sqlite:///test.db")
