@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'api',
     'simple_history',
     'field_history',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
