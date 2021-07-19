@@ -128,4 +128,54 @@ def filterVowels(i):
 name = "Python programming language"
 print(list(filterfalse(filterVowels, name)))
 
-# 8.
+# 8. isslice(iterable, starting position, ending position, step):- isslice() function is used to print the selectively element from the passed iterable.isslice() function takes four arguments.
+
+print("The Result is:- ", list(islice(data, 2, 6, 1)))
+
+# 9. startmap(function, tuple list):- this iterator takes function and list of tuples as an argument and return value according to passed function.
+
+tpls = [(1,2,0), (12, 20, 10), (20, 24, 50), (100, 200, 400)]
+
+print("The Result is:- ", list(starmap(min, tpls)))
+
+# 10. takewhile():- This function is hust opposite of the dropwhile() function.It prints the value from the iterable till specify function will return False.
+
+print("takewhile example:-")
+
+
+def filterNow(i):
+    if i % 2 == 0:
+        return True
+    else:
+        return False
+
+
+data = [10, 12, 3, 4, 5, 6, 7, 8, 9]
+print(list(takewhile(filterNow, data)))
+print(list(takewhile(lambda x: x % 2 == 0, data)))
+
+
+# 11. tee():- This function is used to split the container into number of the iterators mentioned in the argument.
+
+data = [10, 12, 3, 4, 5, 6, 7, 8, 9]
+
+# create the iterator
+iter = iter(data)
+
+# make list of three iterators
+iterators = tee(data, 3)
+
+for i in range(0, 3):
+    print(list(iterators[i]))
+
+
+# 12. zip_longest():- This iterator is going to be print the value of the iterable alternatively in sequence.If one of the iterable full remaining value filled by the character passed to fillvalue parameter.
+
+iterable1 = "Python"
+iterable2 = "Coding"
+iterable3 = "Code"
+
+print("The Result is:- ", list(zip_longest(iterable1, iterable2, iterable3, fillvalue="*")))
+
+
+

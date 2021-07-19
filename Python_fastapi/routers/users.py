@@ -1,8 +1,11 @@
+import json
+
 from fastapi import APIRouter
 from api.user import UserList
 from api.user_schema import ShowUsers
 from typing import List
 from fastapi import status
+from fastapi import Response
 
 
 router = APIRouter()
@@ -18,7 +21,7 @@ async def all_users():
             "code": status.HTTP_200_OK
         }
     )
-    return response
+    return Response(content=json.dumps(response), headers= {"media_type":"plain/text"})
 
 
 
