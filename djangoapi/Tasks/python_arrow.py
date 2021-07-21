@@ -23,26 +23,3 @@
 # # humanize
 # print(local_date_time.humanize())
 
-# Pytest
-# Pytest is one of the most popular framework for building a simple and scalable test.
-
-# 1. Simple usages
-
-# def capital_case(x):
-#     return x.upper()
-#
-#
-# def test_capital_case():
-#     assert capital_case('vishvajit') == 'VISHVAJIT'
-
-
-# Group multiple test in a class
-
-# class TestClass:
-#     def test_one(self):
-#         name = "Vishvajit"
-#         assert "Vt" in name
-#
-#     def test_two(self):
-#         name = "VISHVAJIi"
-#         assert name.lower()
