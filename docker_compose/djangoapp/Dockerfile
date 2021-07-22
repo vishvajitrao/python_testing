@@ -22,5 +22,6 @@ RUN pip install --upgrade pip
 # run this command to install all dependencies  
 COPY . $DockerHOME 
 RUN pip install -r requirements.txt  
+RUN python manage.py migrate
 
 
