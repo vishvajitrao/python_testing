@@ -1,10 +1,10 @@
 import sqlalchemy
-from sqlalchemy import MetaData
+
 from sqlalchemy.orm import declarative_base
 from sqlalchemy.orm import sessionmaker
 
 
-DATABASE_URL = 'mysql+mysqldb://root:F@ntastic2021@localhost/demo'
+DATABASE_URL = 'mysql+mysqldb://root:Fantastic2021$@localhost/demo'
 engine = sqlalchemy.create_engine(
     DATABASE_URL,
     echo_pool=True,

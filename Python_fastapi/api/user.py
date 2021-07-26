@@ -1,11 +1,12 @@
 from models import models
 from config import DB
+from fastapi.responses import JSONResponse
+
 
 
 class UserList:
     @classmethod
     def all_users(cls):
-        response = {"message": None, "data": None}
         data = list()
         _data = DB.query(models.User).all()
         for user in _data:
@@ -17,5 +18,14 @@ class UserList:
                 }
             )
         return data
+
+
+class UserLists:
+    @classmethod
+    def all_users(cls):
+        _data = DB.query(models.User).all()
+        return _data
+
+
 
 

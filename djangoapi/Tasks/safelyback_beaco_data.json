@@ -1,0 +1,2594 @@
+{
+  "topicFilter": "safelyback/mobile",
+  "qos": 1,
+  "messages": [
+    {
+      "format": "json",
+      "topic": "safelyback/mobile",
+      "timestamp": 1626988153864,
+      "payload": {
+        "customer_id": "364b2ebe-5596-497f-9df1-aa822b31a441",
+        "device_id": "180b68eb-9ae5-41d9-b0b6-c045f37f7374",
+        "beacon_list": [
+          {
+            "beacon_id": "e5c021a5e289",
+            "rssi": "-58",
+            "x-coordinate": "185.0000",
+            "y-coordinate": "140.5800",
+            "z-coordinate": "6.5800",
+            "timestamp": 1626988153323
+          },
+          {
+            "beacon_id": "c9ca10b9c09a",
+            "rssi": "-81",
+            "x-coordinate": "64.2500",
+            "y-coordinate": "155.0900",
+            "z-coordinate": "8.8300",
+            "timestamp": 1626988153323
+          }
+        ]
+      }
+    },
+    {
+      "format": "json",
+      "topic": "safelyback/mobile",
+      "timestamp": 1626987916204,
+      "payload": {
+        "customer_id": "364b2ebe-5596-497f-9df1-aa822b31a441",
+        "device_id": "180b68eb-9ae5-41d9-b0b6-c045f37f7374",
+        "beacon_list": [
+          {
+            "beacon_id": "ec24330f8a72",
+            "rssi": "-83",
+            "x-coordinate": "91.0000",
+            "y-coordinate": "220.0000",
+            "z-coordinate": "8.4200",
+            "timestamp": 1626987916122
+          },
+          {
+            "beacon_id": "c9ca10b9c09a",
+            "rssi": "-77",
+            "x-coordinate": "64.2500",
+            "y-coordinate": "155.0900",
+            "z-coordinate": "8.8300",
+            "timestamp": 1626987916122
+          },
+          {
+            "beacon_id": "ce84294f6a05",
+            "rssi": "-74",
+            "x-coordinate": "77.5800",
+            "y-coordinate": "129.3400",
+            "z-coordinate": "8.3300",
+            "timestamp": 1626987916123
+          },
+          {
+            "beacon_id": "ec24330f8a72",
+            "rssi": "-77",
+            "x-coordinate": "91.0000",
+            "y-coordinate": "220.0000",
+            "z-coordinate": "8.4200",
+            "timestamp": 1626987916123
+          }
+        ]
+      }
+    },
+    {
+      "format": "json",
+      "topic": "safelyback/mobile",
+      "timestamp": 1626987856153,
+      "payload": {
+        "customer_id": "364b2ebe-5596-497f-9df1-aa822b31a441",
+        "device_id": "180b68eb-9ae5-41d9-b0b6-c045f37f7374",
+        "beacon_list": [
+          {
+            "beacon_id": "e5c021a5e289",
+            "rssi": "-64",
+            "x-coordinate": "185.0000",
+            "y-coordinate": "140.5800",
+            "z-coordinate": "6.5800",
+            "timestamp": 1626987856067
+          },
+          {
+            "beacon_id": "f6420202c5d4",
+            "rssi": "-69",
+            "x-coordinate": "140.6700",
+            "y-coordinate": "157.7500",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626987856068
+          },
+          {
+            "beacon_id": "ce5ed4635c7c",
+            "rssi": "-77",
+            "x-coordinate": "192.5800",
+            "y-coordinate": "220.0000",
+            "z-coordinate": "7.0800",
+            "timestamp": 1626987856068
+          },
+          {
+            "beacon_id": "c9ca10b9c09a",
+            "rssi": "-80",
+            "x-coordinate": "64.2500",
+            "y-coordinate": "155.0900",
+            "z-coordinate": "8.8300",
+            "timestamp": 1626987856068
+          },
+          {
+            "beacon_id": "e235c8d900bd",
+            "rssi": "-81",
+            "x-coordinate": "81.1800",
+            "y-coordinate": "171.3400",
+            "z-coordinate": "8.4200",
+            "timestamp": 1626987856069
+          },
+          {
+            "beacon_id": "c1c87d48f378",
+            "rssi": "-84",
+            "x-coordinate": "131.5000",
+            "y-coordinate": "165.9100",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626987856069
+          },
+          {
+            "beacon_id": "c99207cf9ad9",
+            "rssi": "-91",
+            "x-coordinate": "78.7500",
+            "y-coordinate": "96.3400",
+            "z-coordinate": "9.8300",
+            "timestamp": 1626987856070
+          },
+          {
+            "beacon_id": "e5c021a5e289",
+            "rssi": "-67",
+            "x-coordinate": "185.0000",
+            "y-coordinate": "140.5800",
+            "z-coordinate": "6.5800",
+            "timestamp": 1626987856070
+          },
+          {
+            "beacon_id": "c1c87d48f378",
+            "rssi": "-70",
+            "x-coordinate": "131.5000",
+            "y-coordinate": "165.9100",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626987856071
+          },
+          {
+            "beacon_id": "ce9a96ec24ad",
+            "rssi": "-73",
+            "x-coordinate": "185.0000",
+            "y-coordinate": "121.0000",
+            "z-coordinate": "6.5800",
+            "timestamp": 1626987856071
+          },
+          {
+            "beacon_id": "ce5ed4635c7c",
+            "rssi": "-76",
+            "x-coordinate": "192.5800",
+            "y-coordinate": "220.0000",
+            "z-coordinate": "7.0800",
+            "timestamp": 1626987856072
+          },
+          {
+            "beacon_id": "d49c315ed77f",
+            "rssi": "-79",
+            "x-coordinate": "180.0000",
+            "y-coordinate": "116.4200",
+            "z-coordinate": "9.9200",
+            "timestamp": 1626987856072
+          },
+          {
+            "beacon_id": "e717a2f615f5",
+            "rssi": "-79",
+            "x-coordinate": "93.5900",
+            "y-coordinate": "105.0000",
+            "z-coordinate": "8.3300",
+            "timestamp": 1626987856073
+          },
+          {
+            "beacon_id": "f70bc46c0859",
+            "rssi": "-80",
+            "x-coordinate": "113.2600",
+            "y-coordinate": "104.0000",
+            "z-coordinate": "8.7500",
+            "timestamp": 1626987856073
+          },
+          {
+            "beacon_id": "e2e6dbafb819",
+            "rssi": "-86",
+            "x-coordinate": "145.9200",
+            "y-coordinate": "85.8300",
+            "z-coordinate": "9.7500",
+            "timestamp": 1626987856074
+          },
+          {
+            "beacon_id": "e5c021a5e289",
+            "rssi": "-62",
+            "x-coordinate": "185.0000",
+            "y-coordinate": "140.5800",
+            "z-coordinate": "6.5800",
+            "timestamp": 1626987856074
+          },
+          {
+            "beacon_id": "e5c021a5e289",
+            "rssi": "-62",
+            "x-coordinate": "185.0000",
+            "y-coordinate": "140.5800",
+            "z-coordinate": "6.5800",
+            "timestamp": 1626987856075
+          },
+          {
+            "beacon_id": "e235c8d900bd",
+            "rssi": "-69",
+            "x-coordinate": "81.1800",
+            "y-coordinate": "171.3400",
+            "z-coordinate": "8.4200",
+            "timestamp": 1626987856075
+          },
+          {
+            "beacon_id": "c9ca10b9c09a",
+            "rssi": "-69",
+            "x-coordinate": "64.2500",
+            "y-coordinate": "155.0900",
+            "z-coordinate": "8.8300",
+            "timestamp": 1626987856076
+          },
+          {
+            "beacon_id": "fee565148e23",
+            "rssi": "-70",
+            "x-coordinate": "113.5800",
+            "y-coordinate": "164.2500",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626987856076
+          },
+          {
+            "beacon_id": "e1a4a80cb932",
+            "rssi": "-77",
+            "x-coordinate": "131.5000",
+            "y-coordinate": "195.0000",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626987856077
+          },
+          {
+            "beacon_id": "e27e63221867",
+            "rssi": "-78",
+            "x-coordinate": "32.8300",
+            "y-coordinate": "141.5000",
+            "z-coordinate": "9.8300",
+            "timestamp": 1626987856077
+          },
+          {
+            "beacon_id": "d4d5ead23c17",
+            "rssi": "-81",
+            "x-coordinate": "238.0000",
+            "y-coordinate": "220.0000",
+            "z-coordinate": "7.2500",
+            "timestamp": 1626987856078
+          },
+          {
+            "beacon_id": "ea0ce4af1366",
+            "rssi": "-82",
+            "x-coordinate": "20.3300",
+            "y-coordinate": "202.0000",
+            "z-coordinate": "9.9200",
+            "timestamp": 1626987856078
+          },
+          {
+            "beacon_id": "e717a2f615f5",
+            "rssi": "-91",
+            "x-coordinate": "93.5900",
+            "y-coordinate": "105.0000",
+            "z-coordinate": "8.3300",
+            "timestamp": 1626987856079
+          },
+          {
+            "beacon_id": "ce9a96ec24ad",
+            "rssi": "-74",
+            "x-coordinate": "185.0000",
+            "y-coordinate": "121.0000",
+            "z-coordinate": "6.5800",
+            "timestamp": 1626987856079
+          },
+          {
+            "beacon_id": "ec24330f8a72",
+            "rssi": "-80",
+            "x-coordinate": "91.0000",
+            "y-coordinate": "220.0000",
+            "z-coordinate": "8.4200",
+            "timestamp": 1626987856080
+          },
+          {
+            "beacon_id": "e2e6dbafb819",
+            "rssi": "-84",
+            "x-coordinate": "145.9200",
+            "y-coordinate": "85.8300",
+            "z-coordinate": "9.7500",
+            "timestamp": 1626987856080
+          },
+          {
+            "beacon_id": "f6420202c5d4",
+            "rssi": "-65",
+            "x-coordinate": "140.6700",
+            "y-coordinate": "157.7500",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626987856081
+          },
+          {
+            "beacon_id": "e235c8d900bd",
+            "rssi": "-72",
+            "x-coordinate": "81.1800",
+            "y-coordinate": "171.3400",
+            "z-coordinate": "8.4200",
+            "timestamp": 1626987856081
+          },
+          {
+            "beacon_id": "ce9a96ec24ad",
+            "rssi": "-73",
+            "x-coordinate": "185.0000",
+            "y-coordinate": "121.0000",
+            "z-coordinate": "6.5800",
+            "timestamp": 1626987856082
+          },
+          {
+            "beacon_id": "c9ca10b9c09a",
+            "rssi": "-73",
+            "x-coordinate": "64.2500",
+            "y-coordinate": "155.0900",
+            "z-coordinate": "8.8300",
+            "timestamp": 1626987856082
+          },
+          {
+            "beacon_id": "c1c87d48f378",
+            "rssi": "-77",
+            "x-coordinate": "131.5000",
+            "y-coordinate": "165.9100",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626987856083
+          },
+          {
+            "beacon_id": "d49c315ed77f",
+            "rssi": "-79",
+            "x-coordinate": "180.0000",
+            "y-coordinate": "116.4200",
+            "z-coordinate": "9.9200",
+            "timestamp": 1626987856083
+          },
+          {
+            "beacon_id": "e27e63221867",
+            "rssi": "-83",
+            "x-coordinate": "32.8300",
+            "y-coordinate": "141.5000",
+            "z-coordinate": "9.8300",
+            "timestamp": 1626987856084
+          }
+        ]
+      }
+    },
+    {
+      "format": "json",
+      "topic": "safelyback/mobile",
+      "timestamp": 1626987797064,
+      "payload": {
+        "customer_id": "364b2ebe-5596-497f-9df1-aa822b31a441",
+        "device_id": "180b68eb-9ae5-41d9-b0b6-c045f37f7374",
+        "beacon_list": [
+          {
+            "beacon_id": "f70bc46c0859",
+            "rssi": "-77",
+            "x-coordinate": "113.2600",
+            "y-coordinate": "104.0000",
+            "z-coordinate": "8.7500",
+            "timestamp": 1626987796036
+          },
+          {
+            "beacon_id": "e27e63221867",
+            "rssi": "-80",
+            "x-coordinate": "32.8300",
+            "y-coordinate": "141.5000",
+            "z-coordinate": "9.8300",
+            "timestamp": 1626987796037
+          },
+          {
+            "beacon_id": "c1c87d48f378",
+            "rssi": "-69",
+            "x-coordinate": "131.5000",
+            "y-coordinate": "165.9100",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626987796037
+          },
+          {
+            "beacon_id": "f70bc46c0859",
+            "rssi": "-71",
+            "x-coordinate": "113.2600",
+            "y-coordinate": "104.0000",
+            "z-coordinate": "8.7500",
+            "timestamp": 1626987796037
+          },
+          {
+            "beacon_id": "c9ca10b9c09a",
+            "rssi": "-72",
+            "x-coordinate": "64.2500",
+            "y-coordinate": "155.0900",
+            "z-coordinate": "8.8300",
+            "timestamp": 1626987796037
+          },
+          {
+            "beacon_id": "d49c315ed77f",
+            "rssi": "-74",
+            "x-coordinate": "180.0000",
+            "y-coordinate": "116.4200",
+            "z-coordinate": "9.9200",
+            "timestamp": 1626987796037
+          },
+          {
+            "beacon_id": "ce9a96ec24ad",
+            "rssi": "-75",
+            "x-coordinate": "185.0000",
+            "y-coordinate": "121.0000",
+            "z-coordinate": "6.5800",
+            "timestamp": 1626987796038
+          },
+          {
+            "beacon_id": "d4d5ead23c17",
+            "rssi": "-90",
+            "x-coordinate": "238.0000",
+            "y-coordinate": "220.0000",
+            "z-coordinate": "7.2500",
+            "timestamp": 1626987796038
+          },
+          {
+            "beacon_id": "c99207cf9ad9",
+            "rssi": "-90",
+            "x-coordinate": "78.7500",
+            "y-coordinate": "96.3400",
+            "z-coordinate": "9.8300",
+            "timestamp": 1626987796038
+          }
+        ]
+      }
+    },
+    {
+      "format": "json",
+      "topic": "safelyback/mobile",
+      "timestamp": 1626985601758,
+      "payload": {
+        "customer_id": "364b2ebe-5596-497f-9df1-aa822b31a441",
+        "device_id": "180b68eb-9ae5-41d9-b0b6-c045f37f7374",
+        "beacon_list": [
+          {
+            "beacon_id": "c1c87d48f378",
+            "rssi": "-67",
+            "x-coordinate": "131.5000",
+            "y-coordinate": "165.9100",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985599956
+          },
+          {
+            "beacon_id": "d49c315ed77f",
+            "rssi": "-70",
+            "x-coordinate": "180.0000",
+            "y-coordinate": "116.4200",
+            "z-coordinate": "9.9200",
+            "timestamp": 1626985599956
+          },
+          {
+            "beacon_id": "f7d14e9cd1b4",
+            "rssi": "-70",
+            "x-coordinate": "84.0000",
+            "y-coordinate": "203.0000",
+            "z-coordinate": "9.4200",
+            "timestamp": 1626985599956
+          },
+          {
+            "beacon_id": "e717a2f615f5",
+            "rssi": "-79",
+            "x-coordinate": "93.5900",
+            "y-coordinate": "105.0000",
+            "z-coordinate": "8.3300",
+            "timestamp": 1626985599956
+          },
+          {
+            "beacon_id": "ea0ce4af1366",
+            "rssi": "-82",
+            "x-coordinate": "20.3300",
+            "y-coordinate": "202.0000",
+            "z-coordinate": "9.9200",
+            "timestamp": 1626985599956
+          },
+          {
+            "beacon_id": "f8a68f458344",
+            "rssi": "-83",
+            "x-coordinate": "65.5800",
+            "y-coordinate": "220.0000",
+            "z-coordinate": "9.7500",
+            "timestamp": 1626985599956
+          },
+          {
+            "beacon_id": "ce5ed4635c7c",
+            "rssi": "-83",
+            "x-coordinate": "192.5800",
+            "y-coordinate": "220.0000",
+            "z-coordinate": "7.0800",
+            "timestamp": 1626985599956
+          }
+        ]
+      }
+    },
+    {
+      "format": "json",
+      "topic": "safelyback/mobile",
+      "timestamp": 1626985539698,
+      "payload": {
+        "customer_id": "364b2ebe-5596-497f-9df1-aa822b31a441",
+        "device_id": "180b68eb-9ae5-41d9-b0b6-c045f37f7374",
+        "beacon_list": [
+          {
+            "beacon_id": "ce9a96ec24ad",
+            "rssi": "-69",
+            "x-coordinate": "185.0000",
+            "y-coordinate": "121.0000",
+            "z-coordinate": "6.5800",
+            "timestamp": 1626985539619
+          },
+          {
+            "beacon_id": "dadeaf984b3c",
+            "rssi": "-78",
+            "x-coordinate": "93.8300",
+            "y-coordinate": "147.0000",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985539619
+          },
+          {
+            "beacon_id": "d32ec7076f52",
+            "rssi": "-85",
+            "x-coordinate": "170.0000",
+            "y-coordinate": "99.1600",
+            "z-coordinate": "9.7500",
+            "timestamp": 1626985539620
+          },
+          {
+            "beacon_id": "e180c12395b5",
+            "rssi": "-75",
+            "x-coordinate": "140.0000",
+            "y-coordinate": "220.0000",
+            "z-coordinate": "7.0800",
+            "timestamp": 1626985539620
+          },
+          {
+            "beacon_id": "c9ca10b9c09a",
+            "rssi": "-70",
+            "x-coordinate": "64.2500",
+            "y-coordinate": "155.0900",
+            "z-coordinate": "8.8300",
+            "timestamp": 1626985539621
+          },
+          {
+            "beacon_id": "f8a68f458344",
+            "rssi": "-81",
+            "x-coordinate": "65.5800",
+            "y-coordinate": "220.0000",
+            "z-coordinate": "9.7500",
+            "timestamp": 1626985539621
+          },
+          {
+            "beacon_id": "e717a2f615f5",
+            "rssi": "-83",
+            "x-coordinate": "93.5900",
+            "y-coordinate": "105.0000",
+            "z-coordinate": "8.3300",
+            "timestamp": 1626985539622
+          }
+        ]
+      }
+    },
+    {
+      "format": "json",
+      "topic": "safelyback/mobile",
+      "timestamp": 1626985479758,
+      "payload": {
+        "customer_id": "364b2ebe-5596-497f-9df1-aa822b31a441",
+        "device_id": "180b68eb-9ae5-41d9-b0b6-c045f37f7374",
+        "beacon_list": [
+          {
+            "beacon_id": "dadeaf984b3c",
+            "rssi": "-78",
+            "x-coordinate": "93.8300",
+            "y-coordinate": "147.0000",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985479588
+          },
+          {
+            "beacon_id": "f7d14e9cd1b4",
+            "rssi": "-79",
+            "x-coordinate": "84.0000",
+            "y-coordinate": "203.0000",
+            "z-coordinate": "9.4200",
+            "timestamp": 1626985479588
+          },
+          {
+            "beacon_id": "c9ca10b9c09a",
+            "rssi": "-84",
+            "x-coordinate": "64.2500",
+            "y-coordinate": "155.0900",
+            "z-coordinate": "8.8300",
+            "timestamp": 1626985479589
+          },
+          {
+            "beacon_id": "fee565148e23",
+            "rssi": "-85",
+            "x-coordinate": "113.5800",
+            "y-coordinate": "164.2500",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985479589
+          },
+          {
+            "beacon_id": "e235c8d900bd",
+            "rssi": "-83",
+            "x-coordinate": "81.1800",
+            "y-coordinate": "171.3400",
+            "z-coordinate": "8.4200",
+            "timestamp": 1626985479589
+          },
+          {
+            "beacon_id": "f7d14e9cd1b4",
+            "rssi": "-84",
+            "x-coordinate": "84.0000",
+            "y-coordinate": "203.0000",
+            "z-coordinate": "9.4200",
+            "timestamp": 1626985479589
+          },
+          {
+            "beacon_id": "f6420202c5d4",
+            "rssi": "-86",
+            "x-coordinate": "140.6700",
+            "y-coordinate": "157.7500",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985479589
+          },
+          {
+            "beacon_id": "e2e6dbafb819",
+            "rssi": "-86",
+            "x-coordinate": "145.9200",
+            "y-coordinate": "85.8300",
+            "z-coordinate": "9.7500",
+            "timestamp": 1626985479589
+          },
+          {
+            "beacon_id": "d8cb8f0ea2e2",
+            "rssi": "-70",
+            "x-coordinate": "185.0000",
+            "y-coordinate": "160.6700",
+            "z-coordinate": "6.5800",
+            "timestamp": 1626985479589
+          }
+        ]
+      }
+    },
+    {
+      "format": "json",
+      "topic": "safelyback/mobile",
+      "timestamp": 1626985419869,
+      "payload": {
+        "customer_id": "364b2ebe-5596-497f-9df1-aa822b31a441",
+        "device_id": "180b68eb-9ae5-41d9-b0b6-c045f37f7374",
+        "beacon_list": [
+          {
+            "beacon_id": "d49c315ed77f",
+            "rssi": "-68",
+            "x-coordinate": "180.0000",
+            "y-coordinate": "116.4200",
+            "z-coordinate": "9.9200",
+            "timestamp": 1626985419524
+          },
+          {
+            "beacon_id": "f6420202c5d4",
+            "rssi": "-68",
+            "x-coordinate": "140.6700",
+            "y-coordinate": "157.7500",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985419524
+          },
+          {
+            "beacon_id": "e5c021a5e289",
+            "rssi": "-71",
+            "x-coordinate": "185.0000",
+            "y-coordinate": "140.5800",
+            "z-coordinate": "6.5800",
+            "timestamp": 1626985419524
+          },
+          {
+            "beacon_id": "c1c87d48f378",
+            "rssi": "-71",
+            "x-coordinate": "131.5000",
+            "y-coordinate": "165.9100",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985419524
+          },
+          {
+            "beacon_id": "fee565148e23",
+            "rssi": "-74",
+            "x-coordinate": "113.5800",
+            "y-coordinate": "164.2500",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985419524
+          },
+          {
+            "beacon_id": "ce9a96ec24ad",
+            "rssi": "-74",
+            "x-coordinate": "185.0000",
+            "y-coordinate": "121.0000",
+            "z-coordinate": "6.5800",
+            "timestamp": 1626985419524
+          },
+          {
+            "beacon_id": "ce5ed4635c7c",
+            "rssi": "-74",
+            "x-coordinate": "192.5800",
+            "y-coordinate": "220.0000",
+            "z-coordinate": "7.0800",
+            "timestamp": 1626985419525
+          },
+          {
+            "beacon_id": "c053a25d2e06",
+            "rssi": "-77",
+            "x-coordinate": "202.8300",
+            "y-coordinate": "104.0000",
+            "z-coordinate": "7.0000",
+            "timestamp": 1626985419525
+          },
+          {
+            "beacon_id": "d6e8ec86bede",
+            "rssi": "-81",
+            "x-coordinate": "74.8300",
+            "y-coordinate": "186.3400",
+            "z-coordinate": "10.0000",
+            "timestamp": 1626985419525
+          },
+          {
+            "beacon_id": "e2e6dbafb819",
+            "rssi": "-86",
+            "x-coordinate": "145.9200",
+            "y-coordinate": "85.8300",
+            "z-coordinate": "9.7500",
+            "timestamp": 1626985419525
+          },
+          {
+            "beacon_id": "e235c8d900bd",
+            "rssi": "-86",
+            "x-coordinate": "81.1800",
+            "y-coordinate": "171.3400",
+            "z-coordinate": "8.4200",
+            "timestamp": 1626985419525
+          },
+          {
+            "beacon_id": "dadeaf984b3c",
+            "rssi": "-86",
+            "x-coordinate": "93.8300",
+            "y-coordinate": "147.0000",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985419525
+          },
+          {
+            "beacon_id": "ea0ce4af1366",
+            "rssi": "-89",
+            "x-coordinate": "20.3300",
+            "y-coordinate": "202.0000",
+            "z-coordinate": "9.9200",
+            "timestamp": 1626985419526
+          },
+          {
+            "beacon_id": "e5c021a5e289",
+            "rssi": "-76",
+            "x-coordinate": "185.0000",
+            "y-coordinate": "140.5800",
+            "z-coordinate": "6.5800",
+            "timestamp": 1626985419526
+          },
+          {
+            "beacon_id": "f6420202c5d4",
+            "rssi": "-78",
+            "x-coordinate": "140.6700",
+            "y-coordinate": "157.7500",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985419526
+          },
+          {
+            "beacon_id": "d4d5ead23c17",
+            "rssi": "-84",
+            "x-coordinate": "238.0000",
+            "y-coordinate": "220.0000",
+            "z-coordinate": "7.2500",
+            "timestamp": 1626985419526
+          },
+          {
+            "beacon_id": "e235c8d900bd",
+            "rssi": "-84",
+            "x-coordinate": "81.1800",
+            "y-coordinate": "171.3400",
+            "z-coordinate": "8.4200",
+            "timestamp": 1626985419526
+          },
+          {
+            "beacon_id": "c9ca10b9c09a",
+            "rssi": "-84",
+            "x-coordinate": "64.2500",
+            "y-coordinate": "155.0900",
+            "z-coordinate": "8.8300",
+            "timestamp": 1626985419527
+          },
+          {
+            "beacon_id": "f0295a5dc85d",
+            "rssi": "-92",
+            "x-coordinate": "50.2500",
+            "y-coordinate": "172.1700",
+            "z-coordinate": "8.6700",
+            "timestamp": 1626985419527
+          },
+          {
+            "beacon_id": "f70bc46c0859",
+            "rssi": "-63",
+            "x-coordinate": "113.2600",
+            "y-coordinate": "104.0000",
+            "z-coordinate": "8.7500",
+            "timestamp": 1626985419527
+          },
+          {
+            "beacon_id": "c9ca10b9c09a",
+            "rssi": "-76",
+            "x-coordinate": "64.2500",
+            "y-coordinate": "155.0900",
+            "z-coordinate": "8.8300",
+            "timestamp": 1626985419527
+          },
+          {
+            "beacon_id": "c053a25d2e06",
+            "rssi": "-78",
+            "x-coordinate": "202.8300",
+            "y-coordinate": "104.0000",
+            "z-coordinate": "7.0000",
+            "timestamp": 1626985419527
+          },
+          {
+            "beacon_id": "fee565148e23",
+            "rssi": "-79",
+            "x-coordinate": "113.5800",
+            "y-coordinate": "164.2500",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985419527
+          },
+          {
+            "beacon_id": "e717a2f615f5",
+            "rssi": "-80",
+            "x-coordinate": "93.5900",
+            "y-coordinate": "105.0000",
+            "z-coordinate": "8.3300",
+            "timestamp": 1626985419528
+          },
+          {
+            "beacon_id": "d4d5ead23c17",
+            "rssi": "-83",
+            "x-coordinate": "238.0000",
+            "y-coordinate": "220.0000",
+            "z-coordinate": "7.2500",
+            "timestamp": 1626985419528
+          },
+          {
+            "beacon_id": "e235c8d900bd",
+            "rssi": "-83",
+            "x-coordinate": "81.1800",
+            "y-coordinate": "171.3400",
+            "z-coordinate": "8.4200",
+            "timestamp": 1626985419528
+          },
+          {
+            "beacon_id": "c1c87d48f378",
+            "rssi": "-84",
+            "x-coordinate": "131.5000",
+            "y-coordinate": "165.9100",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985419528
+          },
+          {
+            "beacon_id": "f8a68f458344",
+            "rssi": "-85",
+            "x-coordinate": "65.5800",
+            "y-coordinate": "220.0000",
+            "z-coordinate": "9.7500",
+            "timestamp": 1626985419528
+          },
+          {
+            "beacon_id": "d6e8ec86bede",
+            "rssi": "-88",
+            "x-coordinate": "74.8300",
+            "y-coordinate": "186.3400",
+            "z-coordinate": "10.0000",
+            "timestamp": 1626985419528
+          },
+          {
+            "beacon_id": "f70bc46c0859",
+            "rssi": "-67",
+            "x-coordinate": "113.2600",
+            "y-coordinate": "104.0000",
+            "z-coordinate": "8.7500",
+            "timestamp": 1626985419529
+          },
+          {
+            "beacon_id": "f7d14e9cd1b4",
+            "rssi": "-73",
+            "x-coordinate": "84.0000",
+            "y-coordinate": "203.0000",
+            "z-coordinate": "9.4200",
+            "timestamp": 1626985419529
+          },
+          {
+            "beacon_id": "f6420202c5d4",
+            "rssi": "-76",
+            "x-coordinate": "140.6700",
+            "y-coordinate": "157.7500",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985419529
+          },
+          {
+            "beacon_id": "d49c315ed77f",
+            "rssi": "-77",
+            "x-coordinate": "180.0000",
+            "y-coordinate": "116.4200",
+            "z-coordinate": "9.9200",
+            "timestamp": 1626985419529
+          },
+          {
+            "beacon_id": "f0295a5dc85d",
+            "rssi": "-82",
+            "x-coordinate": "50.2500",
+            "y-coordinate": "172.1700",
+            "z-coordinate": "8.6700",
+            "timestamp": 1626985419529
+          },
+          {
+            "beacon_id": "ea0ce4af1366",
+            "rssi": "-84",
+            "x-coordinate": "20.3300",
+            "y-coordinate": "202.0000",
+            "z-coordinate": "9.9200",
+            "timestamp": 1626985419530
+          },
+          {
+            "beacon_id": "e27e63221867",
+            "rssi": "-84",
+            "x-coordinate": "32.8300",
+            "y-coordinate": "141.5000",
+            "z-coordinate": "9.8300",
+            "timestamp": 1626985419530
+          },
+          {
+            "beacon_id": "e235c8d900bd",
+            "rssi": "-85",
+            "x-coordinate": "81.1800",
+            "y-coordinate": "171.3400",
+            "z-coordinate": "8.4200",
+            "timestamp": 1626985419530
+          },
+          {
+            "beacon_id": "c9ca10b9c09a",
+            "rssi": "-85",
+            "x-coordinate": "64.2500",
+            "y-coordinate": "155.0900",
+            "z-coordinate": "8.8300",
+            "timestamp": 1626985419530
+          },
+          {
+            "beacon_id": "f8a68f458344",
+            "rssi": "-86",
+            "x-coordinate": "65.5800",
+            "y-coordinate": "220.0000",
+            "z-coordinate": "9.7500",
+            "timestamp": 1626985419530
+          },
+          {
+            "beacon_id": "e01a7c85f25d",
+            "rssi": "-86",
+            "x-coordinate": "5.0000",
+            "y-coordinate": "141.5000",
+            "z-coordinate": "9.8300",
+            "timestamp": 1626985419530
+          },
+          {
+            "beacon_id": "ec24330f8a72",
+            "rssi": "-95",
+            "x-coordinate": "91.0000",
+            "y-coordinate": "220.0000",
+            "z-coordinate": "8.4200",
+            "timestamp": 1626985419531
+          },
+          {
+            "beacon_id": "f70bc46c0859",
+            "rssi": "-66",
+            "x-coordinate": "113.2600",
+            "y-coordinate": "104.0000",
+            "z-coordinate": "8.7500",
+            "timestamp": 1626985419531
+          },
+          {
+            "beacon_id": "f7d14e9cd1b4",
+            "rssi": "-74",
+            "x-coordinate": "84.0000",
+            "y-coordinate": "203.0000",
+            "z-coordinate": "9.4200",
+            "timestamp": 1626985419531
+          },
+          {
+            "beacon_id": "c053a25d2e06",
+            "rssi": "-78",
+            "x-coordinate": "202.8300",
+            "y-coordinate": "104.0000",
+            "z-coordinate": "7.0000",
+            "timestamp": 1626985419531
+          },
+          {
+            "beacon_id": "e717a2f615f5",
+            "rssi": "-79",
+            "x-coordinate": "93.5900",
+            "y-coordinate": "105.0000",
+            "z-coordinate": "8.3300",
+            "timestamp": 1626985419531
+          },
+          {
+            "beacon_id": "f0295a5dc85d",
+            "rssi": "-83",
+            "x-coordinate": "50.2500",
+            "y-coordinate": "172.1700",
+            "z-coordinate": "8.6700",
+            "timestamp": 1626985419532
+          },
+          {
+            "beacon_id": "e235c8d900bd",
+            "rssi": "-84",
+            "x-coordinate": "81.1800",
+            "y-coordinate": "171.3400",
+            "z-coordinate": "8.4200",
+            "timestamp": 1626985419532
+          },
+          {
+            "beacon_id": "c1c87d48f378",
+            "rssi": "-89",
+            "x-coordinate": "131.5000",
+            "y-coordinate": "165.9100",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985419532
+          },
+          {
+            "beacon_id": "c0897048cbb1",
+            "rssi": "-89",
+            "x-coordinate": "10.2500",
+            "y-coordinate": "212.5000",
+            "z-coordinate": "9.9200",
+            "timestamp": 1626985419532
+          }
+        ]
+      }
+    },
+    {
+      "format": "json",
+      "topic": "safelyback/mobile",
+      "timestamp": 1626985360481,
+      "payload": {
+        "customer_id": "364b2ebe-5596-497f-9df1-aa822b31a441",
+        "device_id": "180b68eb-9ae5-41d9-b0b6-c045f37f7374",
+        "beacon_list": [
+          {
+            "beacon_id": "e5c021a5e289",
+            "rssi": "-72",
+            "x-coordinate": "185.0000",
+            "y-coordinate": "140.5800",
+            "z-coordinate": "6.5800",
+            "timestamp": 1626985359532
+          },
+          {
+            "beacon_id": "f0295a5dc85d",
+            "rssi": "-76",
+            "x-coordinate": "50.2500",
+            "y-coordinate": "172.1700",
+            "z-coordinate": "8.6700",
+            "timestamp": 1626985359532
+          },
+          {
+            "beacon_id": "fee565148e23",
+            "rssi": "-80",
+            "x-coordinate": "113.5800",
+            "y-coordinate": "164.2500",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985359532
+          },
+          {
+            "beacon_id": "ec24330f8a72",
+            "rssi": "-83",
+            "x-coordinate": "91.0000",
+            "y-coordinate": "220.0000",
+            "z-coordinate": "8.4200",
+            "timestamp": 1626985359532
+          },
+          {
+            "beacon_id": "d6e8ec86bede",
+            "rssi": "-84",
+            "x-coordinate": "74.8300",
+            "y-coordinate": "186.3400",
+            "z-coordinate": "10.0000",
+            "timestamp": 1626985359532
+          },
+          {
+            "beacon_id": "e27e63221867",
+            "rssi": "-84",
+            "x-coordinate": "32.8300",
+            "y-coordinate": "141.5000",
+            "z-coordinate": "9.8300",
+            "timestamp": 1626985359533
+          },
+          {
+            "beacon_id": "f6420202c5d4",
+            "rssi": "-85",
+            "x-coordinate": "140.6700",
+            "y-coordinate": "157.7500",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985359533
+          },
+          {
+            "beacon_id": "c99207cf9ad9",
+            "rssi": "-89",
+            "x-coordinate": "78.7500",
+            "y-coordinate": "96.3400",
+            "z-coordinate": "9.8300",
+            "timestamp": 1626985359533
+          },
+          {
+            "beacon_id": "f70bc46c0859",
+            "rssi": "-72",
+            "x-coordinate": "113.2600",
+            "y-coordinate": "104.0000",
+            "z-coordinate": "8.7500",
+            "timestamp": 1626985359533
+          },
+          {
+            "beacon_id": "e1a4a80cb932",
+            "rssi": "-76",
+            "x-coordinate": "131.5000",
+            "y-coordinate": "195.0000",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985359533
+          },
+          {
+            "beacon_id": "f0295a5dc85d",
+            "rssi": "-78",
+            "x-coordinate": "50.2500",
+            "y-coordinate": "172.1700",
+            "z-coordinate": "8.6700",
+            "timestamp": 1626985359534
+          },
+          {
+            "beacon_id": "fee565148e23",
+            "rssi": "-80",
+            "x-coordinate": "113.5800",
+            "y-coordinate": "164.2500",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985359534
+          },
+          {
+            "beacon_id": "d6e8ec86bede",
+            "rssi": "-80",
+            "x-coordinate": "74.8300",
+            "y-coordinate": "186.3400",
+            "z-coordinate": "10.0000",
+            "timestamp": 1626985359534
+          },
+          {
+            "beacon_id": "e235c8d900bd",
+            "rssi": "-80",
+            "x-coordinate": "81.1800",
+            "y-coordinate": "171.3400",
+            "z-coordinate": "8.4200",
+            "timestamp": 1626985359534
+          },
+          {
+            "beacon_id": "ec24330f8a72",
+            "rssi": "-80",
+            "x-coordinate": "91.0000",
+            "y-coordinate": "220.0000",
+            "z-coordinate": "8.4200",
+            "timestamp": 1626985359535
+          },
+          {
+            "beacon_id": "dadeaf984b3c",
+            "rssi": "-80",
+            "x-coordinate": "93.8300",
+            "y-coordinate": "147.0000",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985359535
+          },
+          {
+            "beacon_id": "e27e63221867",
+            "rssi": "-86",
+            "x-coordinate": "32.8300",
+            "y-coordinate": "141.5000",
+            "z-coordinate": "9.8300",
+            "timestamp": 1626985359535
+          },
+          {
+            "beacon_id": "f6420202c5d4",
+            "rssi": "-88",
+            "x-coordinate": "140.6700",
+            "y-coordinate": "157.7500",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985359535
+          },
+          {
+            "beacon_id": "fafaf18ab767",
+            "rssi": "-89",
+            "x-coordinate": "159.0000",
+            "y-coordinate": "66.7500",
+            "z-coordinate": "9.7500",
+            "timestamp": 1626985359535
+          },
+          {
+            "beacon_id": "c0897048cbb1",
+            "rssi": "-92",
+            "x-coordinate": "10.2500",
+            "y-coordinate": "212.5000",
+            "z-coordinate": "9.9200",
+            "timestamp": 1626985359536
+          },
+          {
+            "beacon_id": "f70bc46c0859",
+            "rssi": "-70",
+            "x-coordinate": "113.2600",
+            "y-coordinate": "104.0000",
+            "z-coordinate": "8.7500",
+            "timestamp": 1626985359536
+          },
+          {
+            "beacon_id": "c1c87d48f378",
+            "rssi": "-72",
+            "x-coordinate": "131.5000",
+            "y-coordinate": "165.9100",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985359536
+          },
+          {
+            "beacon_id": "f6420202c5d4",
+            "rssi": "-75",
+            "x-coordinate": "140.6700",
+            "y-coordinate": "157.7500",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985359536
+          },
+          {
+            "beacon_id": "fee565148e23",
+            "rssi": "-76",
+            "x-coordinate": "113.5800",
+            "y-coordinate": "164.2500",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985359536
+          },
+          {
+            "beacon_id": "e717a2f615f5",
+            "rssi": "-81",
+            "x-coordinate": "93.5900",
+            "y-coordinate": "105.0000",
+            "z-coordinate": "8.3300",
+            "timestamp": 1626985359537
+          },
+          {
+            "beacon_id": "e27e63221867",
+            "rssi": "-83",
+            "x-coordinate": "32.8300",
+            "y-coordinate": "141.5000",
+            "z-coordinate": "9.8300",
+            "timestamp": 1626985359537
+          },
+          {
+            "beacon_id": "c9ca10b9c09a",
+            "rssi": "-85",
+            "x-coordinate": "64.2500",
+            "y-coordinate": "155.0900",
+            "z-coordinate": "8.8300",
+            "timestamp": 1626985359537
+          },
+          {
+            "beacon_id": "c053a25d2e06",
+            "rssi": "-86",
+            "x-coordinate": "202.8300",
+            "y-coordinate": "104.0000",
+            "z-coordinate": "7.0000",
+            "timestamp": 1626985359537
+          },
+          {
+            "beacon_id": "fafaf18ab767",
+            "rssi": "-88",
+            "x-coordinate": "159.0000",
+            "y-coordinate": "66.7500",
+            "z-coordinate": "9.7500",
+            "timestamp": 1626985359537
+          },
+          {
+            "beacon_id": "c99207cf9ad9",
+            "rssi": "-90",
+            "x-coordinate": "78.7500",
+            "y-coordinate": "96.3400",
+            "z-coordinate": "9.8300",
+            "timestamp": 1626985359537
+          },
+          {
+            "beacon_id": "c0897048cbb1",
+            "rssi": "-90",
+            "x-coordinate": "10.2500",
+            "y-coordinate": "212.5000",
+            "z-coordinate": "9.9200",
+            "timestamp": 1626985359538
+          },
+          {
+            "beacon_id": "c1c87d48f378",
+            "rssi": "-73",
+            "x-coordinate": "131.5000",
+            "y-coordinate": "165.9100",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985359538
+          },
+          {
+            "beacon_id": "f6420202c5d4",
+            "rssi": "-74",
+            "x-coordinate": "140.6700",
+            "y-coordinate": "157.7500",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985359538
+          },
+          {
+            "beacon_id": "e5c021a5e289",
+            "rssi": "-77",
+            "x-coordinate": "185.0000",
+            "y-coordinate": "140.5800",
+            "z-coordinate": "6.5800",
+            "timestamp": 1626985359538
+          },
+          {
+            "beacon_id": "ce9a96ec24ad",
+            "rssi": "-78",
+            "x-coordinate": "185.0000",
+            "y-coordinate": "121.0000",
+            "z-coordinate": "6.5800",
+            "timestamp": 1626985359538
+          },
+          {
+            "beacon_id": "ce5ed4635c7c",
+            "rssi": "-78",
+            "x-coordinate": "192.5800",
+            "y-coordinate": "220.0000",
+            "z-coordinate": "7.0800",
+            "timestamp": 1626985359539
+          },
+          {
+            "beacon_id": "e235c8d900bd",
+            "rssi": "-81",
+            "x-coordinate": "81.1800",
+            "y-coordinate": "171.3400",
+            "z-coordinate": "8.4200",
+            "timestamp": 1626985359539
+          },
+          {
+            "beacon_id": "e717a2f615f5",
+            "rssi": "-83",
+            "x-coordinate": "93.5900",
+            "y-coordinate": "105.0000",
+            "z-coordinate": "8.3300",
+            "timestamp": 1626985359539
+          },
+          {
+            "beacon_id": "f7d14e9cd1b4",
+            "rssi": "-85",
+            "x-coordinate": "84.0000",
+            "y-coordinate": "203.0000",
+            "z-coordinate": "9.4200",
+            "timestamp": 1626985359539
+          },
+          {
+            "beacon_id": "d49c315ed77f",
+            "rssi": "-70",
+            "x-coordinate": "180.0000",
+            "y-coordinate": "116.4200",
+            "z-coordinate": "9.9200",
+            "timestamp": 1626985359539
+          },
+          {
+            "beacon_id": "c1c87d48f378",
+            "rssi": "-74",
+            "x-coordinate": "131.5000",
+            "y-coordinate": "165.9100",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985359540
+          },
+          {
+            "beacon_id": "e1a4a80cb932",
+            "rssi": "-74",
+            "x-coordinate": "131.5000",
+            "y-coordinate": "195.0000",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985359540
+          },
+          {
+            "beacon_id": "ce5ed4635c7c",
+            "rssi": "-74",
+            "x-coordinate": "192.5800",
+            "y-coordinate": "220.0000",
+            "z-coordinate": "7.0800",
+            "timestamp": 1626985359540
+          },
+          {
+            "beacon_id": "f6420202c5d4",
+            "rssi": "-75",
+            "x-coordinate": "140.6700",
+            "y-coordinate": "157.7500",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985359540
+          },
+          {
+            "beacon_id": "e5c021a5e289",
+            "rssi": "-78",
+            "x-coordinate": "185.0000",
+            "y-coordinate": "140.5800",
+            "z-coordinate": "6.5800",
+            "timestamp": 1626985359540
+          },
+          {
+            "beacon_id": "f0295a5dc85d",
+            "rssi": "-79",
+            "x-coordinate": "50.2500",
+            "y-coordinate": "172.1700",
+            "z-coordinate": "8.6700",
+            "timestamp": 1626985359540
+          },
+          {
+            "beacon_id": "e717a2f615f5",
+            "rssi": "-83",
+            "x-coordinate": "93.5900",
+            "y-coordinate": "105.0000",
+            "z-coordinate": "8.3300",
+            "timestamp": 1626985359540
+          },
+          {
+            "beacon_id": "f7d14e9cd1b4",
+            "rssi": "-86",
+            "x-coordinate": "84.0000",
+            "y-coordinate": "203.0000",
+            "z-coordinate": "9.4200",
+            "timestamp": 1626985359540
+          },
+          {
+            "beacon_id": "ea0ce4af1366",
+            "rssi": "-88",
+            "x-coordinate": "20.3300",
+            "y-coordinate": "202.0000",
+            "z-coordinate": "9.9200",
+            "timestamp": 1626985359540
+          }
+        ]
+      }
+    },
+    {
+      "format": "json",
+      "topic": "safelyback/mobile",
+      "timestamp": 1626985299620,
+      "payload": {
+        "customer_id": "364b2ebe-5596-497f-9df1-aa822b31a441",
+        "device_id": "180b68eb-9ae5-41d9-b0b6-c045f37f7374",
+        "beacon_list": [
+          {
+            "beacon_id": "f6420202c5d4",
+            "rssi": "-74",
+            "x-coordinate": "140.6700",
+            "y-coordinate": "157.7500",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985299532
+          },
+          {
+            "beacon_id": "ce9a96ec24ad",
+            "rssi": "-76",
+            "x-coordinate": "185.0000",
+            "y-coordinate": "121.0000",
+            "z-coordinate": "6.5800",
+            "timestamp": 1626985299532
+          },
+          {
+            "beacon_id": "c1c87d48f378",
+            "rssi": "-80",
+            "x-coordinate": "131.5000",
+            "y-coordinate": "165.9100",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985299533
+          },
+          {
+            "beacon_id": "e01a7c85f25d",
+            "rssi": "-85",
+            "x-coordinate": "5.0000",
+            "y-coordinate": "141.5000",
+            "z-coordinate": "9.8300",
+            "timestamp": 1626985299533
+          },
+          {
+            "beacon_id": "e5c021a5e289",
+            "rssi": "-86",
+            "x-coordinate": "185.0000",
+            "y-coordinate": "140.5800",
+            "z-coordinate": "6.5800",
+            "timestamp": 1626985299533
+          },
+          {
+            "beacon_id": "f8a68f458344",
+            "rssi": "-86",
+            "x-coordinate": "65.5800",
+            "y-coordinate": "220.0000",
+            "z-coordinate": "9.7500",
+            "timestamp": 1626985299533
+          },
+          {
+            "beacon_id": "c99207cf9ad9",
+            "rssi": "-89",
+            "x-coordinate": "78.7500",
+            "y-coordinate": "96.3400",
+            "z-coordinate": "9.8300",
+            "timestamp": 1626985299533
+          },
+          {
+            "beacon_id": "c0897048cbb1",
+            "rssi": "-90",
+            "x-coordinate": "10.2500",
+            "y-coordinate": "212.5000",
+            "z-coordinate": "9.9200",
+            "timestamp": 1626985299534
+          },
+          {
+            "beacon_id": "fafaf18ab767",
+            "rssi": "-91",
+            "x-coordinate": "159.0000",
+            "y-coordinate": "66.7500",
+            "z-coordinate": "9.7500",
+            "timestamp": 1626985299534
+          },
+          {
+            "beacon_id": "f70bc46c0859",
+            "rssi": "-65",
+            "x-coordinate": "113.2600",
+            "y-coordinate": "104.0000",
+            "z-coordinate": "8.7500",
+            "timestamp": 1626985299534
+          },
+          {
+            "beacon_id": "dadeaf984b3c",
+            "rssi": "-73",
+            "x-coordinate": "93.8300",
+            "y-coordinate": "147.0000",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985299534
+          },
+          {
+            "beacon_id": "f0295a5dc85d",
+            "rssi": "-77",
+            "x-coordinate": "50.2500",
+            "y-coordinate": "172.1700",
+            "z-coordinate": "8.6700",
+            "timestamp": 1626985299534
+          },
+          {
+            "beacon_id": "e5c021a5e289",
+            "rssi": "-78",
+            "x-coordinate": "185.0000",
+            "y-coordinate": "140.5800",
+            "z-coordinate": "6.5800",
+            "timestamp": 1626985299535
+          },
+          {
+            "beacon_id": "d6e8ec86bede",
+            "rssi": "-81",
+            "x-coordinate": "74.8300",
+            "y-coordinate": "186.3400",
+            "z-coordinate": "10.0000",
+            "timestamp": 1626985299535
+          },
+          {
+            "beacon_id": "ce5ed4635c7c",
+            "rssi": "-81",
+            "x-coordinate": "192.5800",
+            "y-coordinate": "220.0000",
+            "z-coordinate": "7.0800",
+            "timestamp": 1626985299535
+          },
+          {
+            "beacon_id": "e27e63221867",
+            "rssi": "-85",
+            "x-coordinate": "32.8300",
+            "y-coordinate": "141.5000",
+            "z-coordinate": "9.8300",
+            "timestamp": 1626985299535
+          },
+          {
+            "beacon_id": "fee565148e23",
+            "rssi": "-87",
+            "x-coordinate": "113.5800",
+            "y-coordinate": "164.2500",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985299536
+          },
+          {
+            "beacon_id": "c99207cf9ad9",
+            "rssi": "-88",
+            "x-coordinate": "78.7500",
+            "y-coordinate": "96.3400",
+            "z-coordinate": "9.8300",
+            "timestamp": 1626985299536
+          },
+          {
+            "beacon_id": "c4e8294b042b",
+            "rssi": "-89",
+            "x-coordinate": "5.0000",
+            "y-coordinate": "142.1700",
+            "z-coordinate": "9.8300",
+            "timestamp": 1626985299536
+          },
+          {
+            "beacon_id": "ce9a96ec24ad",
+            "rssi": "-78",
+            "x-coordinate": "185.0000",
+            "y-coordinate": "121.0000",
+            "z-coordinate": "6.5800",
+            "timestamp": 1626985299536
+          },
+          {
+            "beacon_id": "d6e8ec86bede",
+            "rssi": "-81",
+            "x-coordinate": "74.8300",
+            "y-coordinate": "186.3400",
+            "z-coordinate": "10.0000",
+            "timestamp": 1626985299536
+          },
+          {
+            "beacon_id": "e717a2f615f5",
+            "rssi": "-82",
+            "x-coordinate": "93.5900",
+            "y-coordinate": "105.0000",
+            "z-coordinate": "8.3300",
+            "timestamp": 1626985299537
+          },
+          {
+            "beacon_id": "f8a68f458344",
+            "rssi": "-83",
+            "x-coordinate": "65.5800",
+            "y-coordinate": "220.0000",
+            "z-coordinate": "9.7500",
+            "timestamp": 1626985299537
+          },
+          {
+            "beacon_id": "e27e63221867",
+            "rssi": "-84",
+            "x-coordinate": "32.8300",
+            "y-coordinate": "141.5000",
+            "z-coordinate": "9.8300",
+            "timestamp": 1626985299537
+          },
+          {
+            "beacon_id": "e01a7c85f25d",
+            "rssi": "-85",
+            "x-coordinate": "5.0000",
+            "y-coordinate": "141.5000",
+            "z-coordinate": "9.8300",
+            "timestamp": 1626985299537
+          },
+          {
+            "beacon_id": "c4e8294b042b",
+            "rssi": "-89",
+            "x-coordinate": "5.0000",
+            "y-coordinate": "142.1700",
+            "z-coordinate": "9.8300",
+            "timestamp": 1626985299537
+          },
+          {
+            "beacon_id": "c0897048cbb1",
+            "rssi": "-91",
+            "x-coordinate": "10.2500",
+            "y-coordinate": "212.5000",
+            "z-coordinate": "9.9200",
+            "timestamp": 1626985299537
+          },
+          {
+            "beacon_id": "e1a4a80cb932",
+            "rssi": "-76",
+            "x-coordinate": "131.5000",
+            "y-coordinate": "195.0000",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985299538
+          },
+          {
+            "beacon_id": "e5c021a5e289",
+            "rssi": "-77",
+            "x-coordinate": "185.0000",
+            "y-coordinate": "140.5800",
+            "z-coordinate": "6.5800",
+            "timestamp": 1626985299538
+          },
+          {
+            "beacon_id": "d6e8ec86bede",
+            "rssi": "-80",
+            "x-coordinate": "74.8300",
+            "y-coordinate": "186.3400",
+            "z-coordinate": "10.0000",
+            "timestamp": 1626985299538
+          },
+          {
+            "beacon_id": "c9ca10b9c09a",
+            "rssi": "-82",
+            "x-coordinate": "64.2500",
+            "y-coordinate": "155.0900",
+            "z-coordinate": "8.8300",
+            "timestamp": 1626985299538
+          },
+          {
+            "beacon_id": "d49c315ed77f",
+            "rssi": "-83",
+            "x-coordinate": "180.0000",
+            "y-coordinate": "116.4200",
+            "z-coordinate": "9.9200",
+            "timestamp": 1626985299538
+          },
+          {
+            "beacon_id": "f8a68f458344",
+            "rssi": "-84",
+            "x-coordinate": "65.5800",
+            "y-coordinate": "220.0000",
+            "z-coordinate": "9.7500",
+            "timestamp": 1626985299538
+          },
+          {
+            "beacon_id": "e27e63221867",
+            "rssi": "-84",
+            "x-coordinate": "32.8300",
+            "y-coordinate": "141.5000",
+            "z-coordinate": "9.8300",
+            "timestamp": 1626985299539
+          },
+          {
+            "beacon_id": "f6420202c5d4",
+            "rssi": "-74",
+            "x-coordinate": "140.6700",
+            "y-coordinate": "157.7500",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985299539
+          },
+          {
+            "beacon_id": "e1a4a80cb932",
+            "rssi": "-75",
+            "x-coordinate": "131.5000",
+            "y-coordinate": "195.0000",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985299539
+          },
+          {
+            "beacon_id": "f0295a5dc85d",
+            "rssi": "-77",
+            "x-coordinate": "50.2500",
+            "y-coordinate": "172.1700",
+            "z-coordinate": "8.6700",
+            "timestamp": 1626985299539
+          },
+          {
+            "beacon_id": "e5c021a5e289",
+            "rssi": "-77",
+            "x-coordinate": "185.0000",
+            "y-coordinate": "140.5800",
+            "z-coordinate": "6.5800",
+            "timestamp": 1626985299539
+          },
+          {
+            "beacon_id": "e235c8d900bd",
+            "rssi": "-81",
+            "x-coordinate": "81.1800",
+            "y-coordinate": "171.3400",
+            "z-coordinate": "8.4200",
+            "timestamp": 1626985299539
+          },
+          {
+            "beacon_id": "ec24330f8a72",
+            "rssi": "-81",
+            "x-coordinate": "91.0000",
+            "y-coordinate": "220.0000",
+            "z-coordinate": "8.4200",
+            "timestamp": 1626985299540
+          },
+          {
+            "beacon_id": "f7d14e9cd1b4",
+            "rssi": "-82",
+            "x-coordinate": "84.0000",
+            "y-coordinate": "203.0000",
+            "z-coordinate": "9.4200",
+            "timestamp": 1626985299540
+          },
+          {
+            "beacon_id": "c9ca10b9c09a",
+            "rssi": "-82",
+            "x-coordinate": "64.2500",
+            "y-coordinate": "155.0900",
+            "z-coordinate": "8.8300",
+            "timestamp": 1626985299540
+          },
+          {
+            "beacon_id": "d6e8ec86bede",
+            "rssi": "-83",
+            "x-coordinate": "74.8300",
+            "y-coordinate": "186.3400",
+            "z-coordinate": "10.0000",
+            "timestamp": 1626985299540
+          },
+          {
+            "beacon_id": "e27e63221867",
+            "rssi": "-86",
+            "x-coordinate": "32.8300",
+            "y-coordinate": "141.5000",
+            "z-coordinate": "9.8300",
+            "timestamp": 1626985299540
+          }
+        ]
+      }
+    },
+    {
+      "format": "json",
+      "topic": "safelyback/mobile",
+      "timestamp": 1626985239643,
+      "payload": {
+        "customer_id": "364b2ebe-5596-497f-9df1-aa822b31a441",
+        "device_id": "180b68eb-9ae5-41d9-b0b6-c045f37f7374",
+        "beacon_list": [
+          {
+            "beacon_id": "fee565148e23",
+            "rssi": "-71",
+            "x-coordinate": "113.5800",
+            "y-coordinate": "164.2500",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985239534
+          },
+          {
+            "beacon_id": "f7d14e9cd1b4",
+            "rssi": "-71",
+            "x-coordinate": "84.0000",
+            "y-coordinate": "203.0000",
+            "z-coordinate": "9.4200",
+            "timestamp": 1626985239534
+          },
+          {
+            "beacon_id": "e1a4a80cb932",
+            "rssi": "-72",
+            "x-coordinate": "131.5000",
+            "y-coordinate": "195.0000",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985239535
+          },
+          {
+            "beacon_id": "f6420202c5d4",
+            "rssi": "-73",
+            "x-coordinate": "140.6700",
+            "y-coordinate": "157.7500",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985239535
+          },
+          {
+            "beacon_id": "d49c315ed77f",
+            "rssi": "-74",
+            "x-coordinate": "180.0000",
+            "y-coordinate": "116.4200",
+            "z-coordinate": "9.9200",
+            "timestamp": 1626985239535
+          },
+          {
+            "beacon_id": "c053a25d2e06",
+            "rssi": "-76",
+            "x-coordinate": "202.8300",
+            "y-coordinate": "104.0000",
+            "z-coordinate": "7.0000",
+            "timestamp": 1626985239535
+          },
+          {
+            "beacon_id": "d6e8ec86bede",
+            "rssi": "-84",
+            "x-coordinate": "74.8300",
+            "y-coordinate": "186.3400",
+            "z-coordinate": "10.0000",
+            "timestamp": 1626985239535
+          },
+          {
+            "beacon_id": "e5c021a5e289",
+            "rssi": "-69",
+            "x-coordinate": "185.0000",
+            "y-coordinate": "140.5800",
+            "z-coordinate": "6.5800",
+            "timestamp": 1626985239536
+          },
+          {
+            "beacon_id": "ce9a96ec24ad",
+            "rssi": "-71",
+            "x-coordinate": "185.0000",
+            "y-coordinate": "121.0000",
+            "z-coordinate": "6.5800",
+            "timestamp": 1626985239536
+          },
+          {
+            "beacon_id": "f6420202c5d4",
+            "rssi": "-73",
+            "x-coordinate": "140.6700",
+            "y-coordinate": "157.7500",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985239536
+          },
+          {
+            "beacon_id": "e1a4a80cb932",
+            "rssi": "-73",
+            "x-coordinate": "131.5000",
+            "y-coordinate": "195.0000",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985239536
+          },
+          {
+            "beacon_id": "c1c87d48f378",
+            "rssi": "-75",
+            "x-coordinate": "131.5000",
+            "y-coordinate": "165.9100",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985239537
+          },
+          {
+            "beacon_id": "e235c8d900bd",
+            "rssi": "-75",
+            "x-coordinate": "81.1800",
+            "y-coordinate": "171.3400",
+            "z-coordinate": "8.4200",
+            "timestamp": 1626985239537
+          },
+          {
+            "beacon_id": "e717a2f615f5",
+            "rssi": "-80",
+            "x-coordinate": "93.5900",
+            "y-coordinate": "105.0000",
+            "z-coordinate": "8.3300",
+            "timestamp": 1626985239537
+          },
+          {
+            "beacon_id": "dadeaf984b3c",
+            "rssi": "-80",
+            "x-coordinate": "93.8300",
+            "y-coordinate": "147.0000",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985239537
+          },
+          {
+            "beacon_id": "e01a7c85f25d",
+            "rssi": "-85",
+            "x-coordinate": "5.0000",
+            "y-coordinate": "141.5000",
+            "z-coordinate": "9.8300",
+            "timestamp": 1626985239538
+          },
+          {
+            "beacon_id": "fafaf18ab767",
+            "rssi": "-92",
+            "x-coordinate": "159.0000",
+            "y-coordinate": "66.7500",
+            "z-coordinate": "9.7500",
+            "timestamp": 1626985239538
+          },
+          {
+            "beacon_id": "f70bc46c0859",
+            "rssi": "-65",
+            "x-coordinate": "113.2600",
+            "y-coordinate": "104.0000",
+            "z-coordinate": "8.7500",
+            "timestamp": 1626985239538
+          },
+          {
+            "beacon_id": "e5c021a5e289",
+            "rssi": "-72",
+            "x-coordinate": "185.0000",
+            "y-coordinate": "140.5800",
+            "z-coordinate": "6.5800",
+            "timestamp": 1626985239538
+          },
+          {
+            "beacon_id": "f6420202c5d4",
+            "rssi": "-74",
+            "x-coordinate": "140.6700",
+            "y-coordinate": "157.7500",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985239538
+          },
+          {
+            "beacon_id": "d49c315ed77f",
+            "rssi": "-76",
+            "x-coordinate": "180.0000",
+            "y-coordinate": "116.4200",
+            "z-coordinate": "9.9200",
+            "timestamp": 1626985239539
+          },
+          {
+            "beacon_id": "c9ca10b9c09a",
+            "rssi": "-77",
+            "x-coordinate": "64.2500",
+            "y-coordinate": "155.0900",
+            "z-coordinate": "8.8300",
+            "timestamp": 1626985239539
+          },
+          {
+            "beacon_id": "ec24330f8a72",
+            "rssi": "-81",
+            "x-coordinate": "91.0000",
+            "y-coordinate": "220.0000",
+            "z-coordinate": "8.4200",
+            "timestamp": 1626985239539
+          },
+          {
+            "beacon_id": "d4d5ead23c17",
+            "rssi": "-84",
+            "x-coordinate": "238.0000",
+            "y-coordinate": "220.0000",
+            "z-coordinate": "7.2500",
+            "timestamp": 1626985239539
+          },
+          {
+            "beacon_id": "e235c8d900bd",
+            "rssi": "-84",
+            "x-coordinate": "81.1800",
+            "y-coordinate": "171.3400",
+            "z-coordinate": "8.4200",
+            "timestamp": 1626985239539
+          },
+          {
+            "beacon_id": "c4e8294b042b",
+            "rssi": "-87",
+            "x-coordinate": "5.0000",
+            "y-coordinate": "142.1700",
+            "z-coordinate": "9.8300",
+            "timestamp": 1626985239540
+          },
+          {
+            "beacon_id": "f70bc46c0859",
+            "rssi": "-65",
+            "x-coordinate": "113.2600",
+            "y-coordinate": "104.0000",
+            "z-coordinate": "8.7500",
+            "timestamp": 1626985239540
+          },
+          {
+            "beacon_id": "f7d14e9cd1b4",
+            "rssi": "-72",
+            "x-coordinate": "84.0000",
+            "y-coordinate": "203.0000",
+            "z-coordinate": "9.4200",
+            "timestamp": 1626985239540
+          },
+          {
+            "beacon_id": "dadeaf984b3c",
+            "rssi": "-74",
+            "x-coordinate": "93.8300",
+            "y-coordinate": "147.0000",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985239540
+          },
+          {
+            "beacon_id": "f6420202c5d4",
+            "rssi": "-77",
+            "x-coordinate": "140.6700",
+            "y-coordinate": "157.7500",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985239540
+          },
+          {
+            "beacon_id": "ce9a96ec24ad",
+            "rssi": "-79",
+            "x-coordinate": "185.0000",
+            "y-coordinate": "121.0000",
+            "z-coordinate": "6.5800",
+            "timestamp": 1626985239541
+          },
+          {
+            "beacon_id": "ec24330f8a72",
+            "rssi": "-79",
+            "x-coordinate": "91.0000",
+            "y-coordinate": "220.0000",
+            "z-coordinate": "8.4200",
+            "timestamp": 1626985239541
+          },
+          {
+            "beacon_id": "c9ca10b9c09a",
+            "rssi": "-79",
+            "x-coordinate": "64.2500",
+            "y-coordinate": "155.0900",
+            "z-coordinate": "8.8300",
+            "timestamp": 1626985239541
+          },
+          {
+            "beacon_id": "e01a7c85f25d",
+            "rssi": "-84",
+            "x-coordinate": "5.0000",
+            "y-coordinate": "141.5000",
+            "z-coordinate": "9.8300",
+            "timestamp": 1626985239541
+          },
+          {
+            "beacon_id": "c4e8294b042b",
+            "rssi": "-88",
+            "x-coordinate": "5.0000",
+            "y-coordinate": "142.1700",
+            "z-coordinate": "9.8300",
+            "timestamp": 1626985239541
+          },
+          {
+            "beacon_id": "f70bc46c0859",
+            "rssi": "-65",
+            "x-coordinate": "113.2600",
+            "y-coordinate": "104.0000",
+            "z-coordinate": "8.7500",
+            "timestamp": 1626985239541
+          },
+          {
+            "beacon_id": "e5c021a5e289",
+            "rssi": "-72",
+            "x-coordinate": "185.0000",
+            "y-coordinate": "140.5800",
+            "z-coordinate": "6.5800",
+            "timestamp": 1626985239542
+          },
+          {
+            "beacon_id": "d49c315ed77f",
+            "rssi": "-76",
+            "x-coordinate": "180.0000",
+            "y-coordinate": "116.4200",
+            "z-coordinate": "9.9200",
+            "timestamp": 1626985239542
+          },
+          {
+            "beacon_id": "f6420202c5d4",
+            "rssi": "-76",
+            "x-coordinate": "140.6700",
+            "y-coordinate": "157.7500",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985239542
+          },
+          {
+            "beacon_id": "c053a25d2e06",
+            "rssi": "-77",
+            "x-coordinate": "202.8300",
+            "y-coordinate": "104.0000",
+            "z-coordinate": "7.0000",
+            "timestamp": 1626985239542
+          },
+          {
+            "beacon_id": "ce5ed4635c7c",
+            "rssi": "-77",
+            "x-coordinate": "192.5800",
+            "y-coordinate": "220.0000",
+            "z-coordinate": "7.0800",
+            "timestamp": 1626985239542
+          },
+          {
+            "beacon_id": "c9ca10b9c09a",
+            "rssi": "-77",
+            "x-coordinate": "64.2500",
+            "y-coordinate": "155.0900",
+            "z-coordinate": "8.8300",
+            "timestamp": 1626985239543
+          },
+          {
+            "beacon_id": "e235c8d900bd",
+            "rssi": "-82",
+            "x-coordinate": "81.1800",
+            "y-coordinate": "171.3400",
+            "z-coordinate": "8.4200",
+            "timestamp": 1626985239543
+          },
+          {
+            "beacon_id": "ec24330f8a72",
+            "rssi": "-82",
+            "x-coordinate": "91.0000",
+            "y-coordinate": "220.0000",
+            "z-coordinate": "8.4200",
+            "timestamp": 1626985239543
+          },
+          {
+            "beacon_id": "d4d5ead23c17",
+            "rssi": "-84",
+            "x-coordinate": "238.0000",
+            "y-coordinate": "220.0000",
+            "z-coordinate": "7.2500",
+            "timestamp": 1626985239543
+          },
+          {
+            "beacon_id": "fee565148e23",
+            "rssi": "-85",
+            "x-coordinate": "113.5800",
+            "y-coordinate": "164.2500",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985239543
+          },
+          {
+            "beacon_id": "c4e8294b042b",
+            "rssi": "-85",
+            "x-coordinate": "5.0000",
+            "y-coordinate": "142.1700",
+            "z-coordinate": "9.8300",
+            "timestamp": 1626985239543
+          },
+          {
+            "beacon_id": "c0897048cbb1",
+            "rssi": "-90",
+            "x-coordinate": "10.2500",
+            "y-coordinate": "212.5000",
+            "z-coordinate": "9.9200",
+            "timestamp": 1626985239543
+          },
+          {
+            "beacon_id": "e2e6dbafb819",
+            "rssi": "-91",
+            "x-coordinate": "145.9200",
+            "y-coordinate": "85.8300",
+            "z-coordinate": "9.7500",
+            "timestamp": 1626985239543
+          }
+        ]
+      }
+    },
+    {
+      "format": "json",
+      "topic": "safelyback/mobile",
+      "timestamp": 1626985179795,
+      "payload": {
+        "customer_id": "364b2ebe-5596-497f-9df1-aa822b31a441",
+        "device_id": "180b68eb-9ae5-41d9-b0b6-c045f37f7374",
+        "beacon_list": [
+          {
+            "beacon_id": "d49c315ed77f",
+            "rssi": "-74",
+            "x-coordinate": "180.0000",
+            "y-coordinate": "116.4200",
+            "z-coordinate": "9.9200",
+            "timestamp": 1626985179535
+          },
+          {
+            "beacon_id": "ce5ed4635c7c",
+            "rssi": "-76",
+            "x-coordinate": "192.5800",
+            "y-coordinate": "220.0000",
+            "z-coordinate": "7.0800",
+            "timestamp": 1626985179535
+          },
+          {
+            "beacon_id": "e1a4a80cb932",
+            "rssi": "-77",
+            "x-coordinate": "131.5000",
+            "y-coordinate": "195.0000",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985179535
+          },
+          {
+            "beacon_id": "c053a25d2e06",
+            "rssi": "-78",
+            "x-coordinate": "202.8300",
+            "y-coordinate": "104.0000",
+            "z-coordinate": "7.0000",
+            "timestamp": 1626985179536
+          },
+          {
+            "beacon_id": "e5c021a5e289",
+            "rssi": "-79",
+            "x-coordinate": "185.0000",
+            "y-coordinate": "140.5800",
+            "z-coordinate": "6.5800",
+            "timestamp": 1626985179536
+          },
+          {
+            "beacon_id": "e717a2f615f5",
+            "rssi": "-83",
+            "x-coordinate": "93.5900",
+            "y-coordinate": "105.0000",
+            "z-coordinate": "8.3300",
+            "timestamp": 1626985179536
+          },
+          {
+            "beacon_id": "e2e6dbafb819",
+            "rssi": "-85",
+            "x-coordinate": "145.9200",
+            "y-coordinate": "85.8300",
+            "z-coordinate": "9.7500",
+            "timestamp": 1626985179536
+          },
+          {
+            "beacon_id": "f8a68f458344",
+            "rssi": "-90",
+            "x-coordinate": "65.5800",
+            "y-coordinate": "220.0000",
+            "z-coordinate": "9.7500",
+            "timestamp": 1626985179536
+          },
+          {
+            "beacon_id": "f70bc46c0859",
+            "rssi": "-69",
+            "x-coordinate": "113.2600",
+            "y-coordinate": "104.0000",
+            "z-coordinate": "8.7500",
+            "timestamp": 1626985179537
+          },
+          {
+            "beacon_id": "f7d14e9cd1b4",
+            "rssi": "-72",
+            "x-coordinate": "84.0000",
+            "y-coordinate": "203.0000",
+            "z-coordinate": "9.4200",
+            "timestamp": 1626985179537
+          },
+          {
+            "beacon_id": "fee565148e23",
+            "rssi": "-73",
+            "x-coordinate": "113.5800",
+            "y-coordinate": "164.2500",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985179537
+          },
+          {
+            "beacon_id": "e5c021a5e289",
+            "rssi": "-74",
+            "x-coordinate": "185.0000",
+            "y-coordinate": "140.5800",
+            "z-coordinate": "6.5800",
+            "timestamp": 1626985179537
+          },
+          {
+            "beacon_id": "c1c87d48f378",
+            "rssi": "-77",
+            "x-coordinate": "131.5000",
+            "y-coordinate": "165.9100",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985179537
+          },
+          {
+            "beacon_id": "e1a4a80cb932",
+            "rssi": "-80",
+            "x-coordinate": "131.5000",
+            "y-coordinate": "195.0000",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985179538
+          },
+          {
+            "beacon_id": "e01a7c85f25d",
+            "rssi": "-85",
+            "x-coordinate": "5.0000",
+            "y-coordinate": "141.5000",
+            "z-coordinate": "9.8300",
+            "timestamp": 1626985179538
+          },
+          {
+            "beacon_id": "e717a2f615f5",
+            "rssi": "-90",
+            "x-coordinate": "93.5900",
+            "y-coordinate": "105.0000",
+            "z-coordinate": "8.3300",
+            "timestamp": 1626985179538
+          },
+          {
+            "beacon_id": "f70bc46c0859",
+            "rssi": "-70",
+            "x-coordinate": "113.2600",
+            "y-coordinate": "104.0000",
+            "z-coordinate": "8.7500",
+            "timestamp": 1626985179538
+          },
+          {
+            "beacon_id": "e1a4a80cb932",
+            "rssi": "-76",
+            "x-coordinate": "131.5000",
+            "y-coordinate": "195.0000",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985179538
+          },
+          {
+            "beacon_id": "ce9a96ec24ad",
+            "rssi": "-79",
+            "x-coordinate": "185.0000",
+            "y-coordinate": "121.0000",
+            "z-coordinate": "6.5800",
+            "timestamp": 1626985179539
+          },
+          {
+            "beacon_id": "d6e8ec86bede",
+            "rssi": "-84",
+            "x-coordinate": "74.8300",
+            "y-coordinate": "186.3400",
+            "z-coordinate": "10.0000",
+            "timestamp": 1626985179539
+          },
+          {
+            "beacon_id": "e27e63221867",
+            "rssi": "-84",
+            "x-coordinate": "32.8300",
+            "y-coordinate": "141.5000",
+            "z-coordinate": "9.8300",
+            "timestamp": 1626985179539
+          },
+          {
+            "beacon_id": "ec24330f8a72",
+            "rssi": "-84",
+            "x-coordinate": "91.0000",
+            "y-coordinate": "220.0000",
+            "z-coordinate": "8.4200",
+            "timestamp": 1626985179539
+          },
+          {
+            "beacon_id": "dadeaf984b3c",
+            "rssi": "-87",
+            "x-coordinate": "93.8300",
+            "y-coordinate": "147.0000",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985179540
+          },
+          {
+            "beacon_id": "f70bc46c0859",
+            "rssi": "-62",
+            "x-coordinate": "113.2600",
+            "y-coordinate": "104.0000",
+            "z-coordinate": "8.7500",
+            "timestamp": 1626985179540
+          },
+          {
+            "beacon_id": "f7d14e9cd1b4",
+            "rssi": "-72",
+            "x-coordinate": "84.0000",
+            "y-coordinate": "203.0000",
+            "z-coordinate": "9.4200",
+            "timestamp": 1626985179540
+          },
+          {
+            "beacon_id": "ce9a96ec24ad",
+            "rssi": "-73",
+            "x-coordinate": "185.0000",
+            "y-coordinate": "121.0000",
+            "z-coordinate": "6.5800",
+            "timestamp": 1626985179540
+          },
+          {
+            "beacon_id": "dadeaf984b3c",
+            "rssi": "-75",
+            "x-coordinate": "93.8300",
+            "y-coordinate": "147.0000",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985179541
+          },
+          {
+            "beacon_id": "d49c315ed77f",
+            "rssi": "-76",
+            "x-coordinate": "180.0000",
+            "y-coordinate": "116.4200",
+            "z-coordinate": "9.9200",
+            "timestamp": 1626985179541
+          },
+          {
+            "beacon_id": "c9ca10b9c09a",
+            "rssi": "-76",
+            "x-coordinate": "64.2500",
+            "y-coordinate": "155.0900",
+            "z-coordinate": "8.8300",
+            "timestamp": 1626985179541
+          },
+          {
+            "beacon_id": "c1c87d48f378",
+            "rssi": "-77",
+            "x-coordinate": "131.5000",
+            "y-coordinate": "165.9100",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985179541
+          },
+          {
+            "beacon_id": "f6420202c5d4",
+            "rssi": "-77",
+            "x-coordinate": "140.6700",
+            "y-coordinate": "157.7500",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985179542
+          },
+          {
+            "beacon_id": "e717a2f615f5",
+            "rssi": "-80",
+            "x-coordinate": "93.5900",
+            "y-coordinate": "105.0000",
+            "z-coordinate": "8.3300",
+            "timestamp": 1626985179542
+          },
+          {
+            "beacon_id": "d4d5ead23c17",
+            "rssi": "-86",
+            "x-coordinate": "238.0000",
+            "y-coordinate": "220.0000",
+            "z-coordinate": "7.2500",
+            "timestamp": 1626985179542
+          },
+          {
+            "beacon_id": "fafaf18ab767",
+            "rssi": "-89",
+            "x-coordinate": "159.0000",
+            "y-coordinate": "66.7500",
+            "z-coordinate": "9.7500",
+            "timestamp": 1626985179542
+          },
+          {
+            "beacon_id": "f70bc46c0859",
+            "rssi": "-65",
+            "x-coordinate": "113.2600",
+            "y-coordinate": "104.0000",
+            "z-coordinate": "8.7500",
+            "timestamp": 1626985179542
+          },
+          {
+            "beacon_id": "f6420202c5d4",
+            "rssi": "-71",
+            "x-coordinate": "140.6700",
+            "y-coordinate": "157.7500",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985179543
+          },
+          {
+            "beacon_id": "e1a4a80cb932",
+            "rssi": "-72",
+            "x-coordinate": "131.5000",
+            "y-coordinate": "195.0000",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985179543
+          },
+          {
+            "beacon_id": "c1c87d48f378",
+            "rssi": "-74",
+            "x-coordinate": "131.5000",
+            "y-coordinate": "165.9100",
+            "z-coordinate": "9.2500",
+            "timestamp": 1626985179543
+          },
+          {
+            "beacon_id": "d49c315ed77f",
+            "rssi": "-74",
+            "x-coordinate": "180.0000",
+            "y-coordinate": "116.4200",
+            "z-coordinate": "9.9200",
+            "timestamp": 1626985179543
+          },
+          {
+            "beacon_id": "ce5ed4635c7c",
+            "rssi": "-77",
+            "x-coordinate": "192.5800",
+            "y-coordinate": "220.0000",
+            "z-coordinate": "7.0800",
+            "timestamp": 1626985179543
+          },
+          {
+            "beacon_id": "ec24330f8a72",
+            "rssi": "-82",
+            "x-coordinate": "91.0000",
+            "y-coordinate": "220.0000",
+            "z-coordinate": "8.4200",
+            "timestamp": 1626985179543
+          },
+          {
+            "beacon_id": "e01a7c85f25d",
+            "rssi": "-83",
+            "x-coordinate": "5.0000",
+            "y-coordinate": "141.5000",
+            "z-coordinate": "9.8300",
+            "timestamp": 1626985179544
+          },
+          {
+            "beacon_id": "d6e8ec86bede",
+            "rssi": "-85",
+            "x-coordinate": "74.8300",
+            "y-coordinate": "186.3400",
+            "z-coordinate": "10.0000",
+            "timestamp": 1626985179544
+          }
+        ]
+      }
+    }
+  ]
+}

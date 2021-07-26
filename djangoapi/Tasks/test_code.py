@@ -1,5 +1,5 @@
-
 from pytest import *
+
 
 # Pytest
 # Pytest is one of the most popular framework for building a simple and scalable test.
@@ -24,4 +24,3 @@ class TestClass:
     def test_two(self):
         name = "VISHVAJIT"
         assert name.lower()
-
