@@ -20,7 +20,6 @@ import logging
 
 
 # create logger
-
 # log = logging.Logger("my-logger")
 # logger = logging.getLogger(log.name)
 #
@@ -46,6 +45,7 @@ import logging
 # We can also setup logging using basicConfig() method.info(), debug(), error(), critical() and warning() automatically call the basicConfig() function if the handler not defined
 
 
+# Using basic config
 logging.basicConfig(filename="logging1.log", filemode="w",
                     format='%(asctime)s - %(message)s - %(name)s - Level no :- %(levelno)s',level=logging.DEBUG)
 
@@ -57,12 +57,39 @@ logging.basicConfig(filename="logging1.log", filemode="w",
 # logging.critical('Fatal error. Cannot continue')
 
 
-# print message on console
+# using get logger
 
-logs = logging.Logger("Vishvajit")
-log = logging.getLogger(logs.name)
+# logs = logging.Logger("Vishvajit")
+# log = logging.getLogger(logs.name)
+# log.debug('A debug message')
+# log.info('An info message')
+# log.warning('Something is not right.')
+# log.error('A Major error has happened.')
+# log.critical('Fatal error. Cannot continue')
+
+
+# Using StreamHandler
+log = logging.getLogger()
+formatter = logging.Formatter(fmt='%(asctime)s~%(levelname)s~%(message)s~module:%(module)s')
+console_handler = logging.StreamHandler()
+console_handler.setLevel(logging.INFO)
+console_handler.setFormatter(formatter)
+log.addHandler(console_handler)
+
+
 log.debug('A debug message')
 log.info('An info message')
 log.warning('Something is not right.')
 log.error('A Major error has happened.')
 log.critical('Fatal error. Cannot continue')
+
+
+# get class name
+print(logging.getLoggerClass())
+
+# textual representation of the level
+print(logging.getLevelName(10))
+
+
+
+
