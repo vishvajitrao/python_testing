@@ -18,6 +18,7 @@
 
 import logging
 
+
 # create logger
 
 # log = logging.Logger("my-logger")
@@ -45,9 +46,10 @@ import logging
 # We can also setup logging using basicConfig() method.info(), debug(), error(), critical() and warning() automatically call the basicConfig() function if the handler not defined
 
 
-# logging.basicConfig(filename="logging1.log", filemode="w",
-#                     format='%(asctime)s - %(message)s - %(name)s - Level no :- %(levelno)s')
-#
+logging.basicConfig(filename="logging1.log", filemode="w",
+                    format='%(asctime)s - %(message)s - %(name)s - Level no :- %(levelno)s',level=logging.DEBUG)
+
+
 # logging.debug('A debug message')
 # logging.info('An info message')
 # logging.warning('Something is not right.')
@@ -57,10 +59,10 @@ import logging
 
 # print message on console
 
-# logger = logging.getLogger()
-# logger.critical("Something critical")
-# logger.error("An error")
-# logger.warning("A warning")
-# logger.info("My info is that you are here")
-# logger.debug("I'm debugging")
-
+logs = logging.Logger("Vishvajit")
+log = logging.getLogger(logs.name)
+log.debug('A debug message')
+log.info('An info message')
+log.warning('Something is not right.')
+log.error('A Major error has happened.')
+log.critical('Fatal error. Cannot continue')
