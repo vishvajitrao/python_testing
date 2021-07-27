@@ -1,6 +1,7 @@
 from models import models
 from config import DB
 from fastapi.responses import JSONResponse
+from fastapi.encoders import jsonable_encoder
 
 
 
@@ -24,7 +25,7 @@ class UserLists:
     @classmethod
     def all_users(cls):
         _data = DB.query(models.User).all()
-        return _data
+        return jsonable_encoder(_data)
 
 
 
