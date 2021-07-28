@@ -16,8 +16,6 @@ from time import sleep
 
 # except  exceptions.PageError:
 #     print("Please enter a valid query for example:- Python, Data science")
-
-
 #
 
 print("-- Threading and multiprocessing ----")
