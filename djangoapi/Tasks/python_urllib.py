@@ -6,9 +6,7 @@ from urllib import parse
 
 # open url - Get Request
 # data = request.urlopen(url='http://127.0.0.1:8000/all-users/')
-
 # print data
-# print(data)
 
 # create PrettyPrinter object
 pp = PrettyPrinter(indent=4)
@@ -36,7 +34,7 @@ response = request.urlopen(url=post_url, data=post_data_encode)
 # getting all the request headers
 pp.pprint(dict(response.info()))
 
-# getting all the request body alang with request body
+# getting all the request body along with request body
 pp.pprint(response.read())
 
 # url parsing
@@ -60,7 +58,6 @@ print(url_parse.path)
 # url_unsplit = parse.urlunsplit(url_split)
 # print(url_unsplit)
 
-
 # url join
 # url_join = parse.urljoin(url,"vishvajit.html")
 # print(url_join)
@@ -81,7 +78,6 @@ url_unquoteplus = parse.unquote_plus(string=url_quoteplus)
 print(url_unquoteplus)
 
 # url encode
-
 query = {"name": "Vishvajit", "course": "BCA","address": "Noida"}
 url_encode = parse.urlencode(query=query)
 print(url_encode)

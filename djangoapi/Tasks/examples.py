@@ -1,24 +1,16 @@
-# Create a Python command line application, that take a popular name and gives some useful information related to that name from wikipedia.
+x = "a1rb2c3"
+output = "arbbccc"
+x1 = []
 
-from pprint import pprint
-import sys
-from wikipedia import *
-from time import sleep
+for i in x:
+    if i.isalpha():
+        x1.append(i)
+    else:
+        val = x1.pop(len(x1) - 1)
+        x1.append(val * int(i))
 
-# query = ' '.join(sys.argv[1:])
-# print(query)
+print(''.join(x1))
 
-# try:
-#     wiki = wikipedia.page("laptop")
-#     print("Title is:- " + wiki.title + "\n")
-#     print("URL is:- ", wiki.url)
-#     print("Your contents are:- ", wiki.content)
-
-# except  exceptions.PageError:
-#     print("Please enter a valid query for example:- Python, Data science")
-#
-
-print("-- Threading and multiprocessing ----")
 
 
 
