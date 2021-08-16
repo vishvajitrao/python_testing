@@ -1,16 +1,28 @@
-x = "a1rb2c3"
-output = "arbbccc"
-x1 = []
+import pandas as pd
 
-for i in x:
-    if i.isalpha():
-        x1.append(i)
-    else:
-        val = x1.pop(len(x1) - 1)
-        x1.append(val * int(i))
+# df = pd.read_json("code-list_json.json", lines=False).head(5)
+# dct = pd.read_json("code-list_json.json", lines=False)['Function'].head(5).to_dict()
+# collections = []
+# for key, value in dct.items():
+#     collections.append(list(value))
+# 
+# 
+# print("-------------------")
+# df2 = pd.DataFrame(data=collections, columns=[1,2,3,4,5,6,7,8])
+# print(df2)
+# 
+# print("Merge two dataframe")
+# result = pd.concat([df, df2], axis=1)
+# print(result[1])
 
-print(''.join(x1))
+d = [[1, 2],[3, 4]]
+df1 = pd.DataFrame(data=d, columns=['letter', 'number'])
+print(df1)
 
+df2 = pd.DataFrame([['c', 3], ['d', 4]],columns=['letters', 'numbers'])
+print(df2)
 
+# print(pd.concat([df1, df2]))
 
-
+df3 = pd.concat([df1, df2], axis=1, ignore_index=True)
+print()

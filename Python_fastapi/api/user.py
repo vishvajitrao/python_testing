@@ -25,7 +25,7 @@ class UserLists:
     @classmethod
     def all_users(cls):
         _data = DB.query(models.User).all()
-        return jsonable_encoder(_data)
+        return _data
 
 
 
