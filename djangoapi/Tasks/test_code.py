@@ -15,12 +15,17 @@ def test_capital_case():
 
 
 # Group multiple test in a class
-
+print("------- Group multiple test in a class ----------")
 class TestClass:
     def test_one(self):
         name = "Vishvajit"
-        assert "Vt" in name
+        assert "V" in name
 
     def test_two(self):
         name = "VISHVAJIT"
-        assert name.lower()
+        assert name.lower() == 'vishvajit'
+
+
+
+
+

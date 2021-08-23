@@ -1,6 +1,7 @@
 # Here we are going to implement AWS cognito user pool using boto3
 
 import boto3
+from pprint import pprint
 
 
 class CognitoOperation:
@@ -9,6 +10,7 @@ class CognitoOperation:
     email = 'vishvajit.rao@in.nuagebiz.tech'
     password = 'Vishvajitrao12!'
     client_id = '69t9k20se1t789tf4aimp44mb1'
+    pool_id = 'us-east-1_b73sKgx8V'
 
     @classmethod
     def user_signup(cls, username):
@@ -140,6 +142,43 @@ class CognitoOperation:
 
         return response
 
+    @classmethod
+    def list_user(cls):
+        """
+        This method will login and provide the token information
+        """
+
+        response = {
+            "success": False,
+        }
+
+        try:
+
+            resp = cls.client.list_users(
+                UserPoolId=cls.pool_id,
+                AttributesToGet=[
+                    'email',
+                ]
+            )
+
+            response.update({"user_data": resp, "success": True})
+
+        # User is not exists
+        except cls.client.exceptions.InvalidParameterException:
+            response.update({"invalid_parameter_exception": True})
+
+        # Wrong email or password
+        except cls.client.exceptions.ResourceNotFoundException:
+            response.update({"ResourceNotFoundException": True})
+
+        # User haven't activate the account yet
+        except cls.client.exceptions.UserNotConfirmedException:
+            response.update({"UserNotConfirmedException": True})
+
+        except Exception as e:
+            response.update({"server_error": True, "message": str(e)})
+
+        return response
 
 # user1 = CognitoOperation.user_signup('vishvajit.rao@in.nuagebiz.tech')
 # print(user1)
@@ -153,5 +192,9 @@ class CognitoOperation:
 # login user
 # login = CognitoOperation.client_login('vishvajit.rao@in.nuagebiz.tech', 'Vishvajitrao12!')
 # print(login)
+
+# list of cognito users
+login = CognitoOperation.list_user()
+pprint(login)
 
 
