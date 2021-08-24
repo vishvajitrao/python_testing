@@ -2,6 +2,8 @@
 
 import boto3
 from pprint import pprint
+from json import dumps
+from bson import json_util
 
 
 class CognitoOperation:
@@ -195,6 +197,7 @@ class CognitoOperation:
 
 # list of cognito users
 login = CognitoOperation.list_user()
-pprint(login)
+json_data = dumps(login, default=json_util.default)
+pprint(json_data)
 
 
