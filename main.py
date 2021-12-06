@@ -2,13 +2,14 @@ from num2words import num2words
 from datetime import datetime
 import humanize
 import inflect
+from pprint import pprint
 
 a = input("Enter, number to convert into words:- ")
 screen_name = input("Enter screen name to perform calculation:- ")
 
 p = inflect.engine()
 
-
+# Python function to convert number to words
 def num2words_converter(data):
     response = {"message": None}
     if data:
@@ -28,6 +29,7 @@ def num2words_converter(data):
     return response
 
 
+# Python function to convert timestamp to date time
 def convert_into_timestamp(timestamp):
     response = {}
     utc_datetime = datetime.utcfromtimestamp(timestamp)
@@ -46,6 +48,7 @@ def convert_into_timestamp(timestamp):
     return response
 
 
+# Python function to convert timestamp to date time
 def timestamp_to_datetime(timestamp):
     response = {}
     if len(timestamp) <= 10:
@@ -73,9 +76,21 @@ def timestamp_to_datetime(timestamp):
         response.update({"message": "Something went wrong"})
     return response
 
-
+# Python function to convert date time to timestamp
 def datetime_to_timestamp():
-    pass
+    response = {}
+    to_timestamp = datetime.now()
+    diff = to_timestamp - datetime.utcnow()
+    response.update(
+        {
+            "timestamp_in_seconds": int(to_timestamp.timestamp()),
+            "timestamp_in_milliseconds": int(to_timestamp.timestamp()) * 1000,
+            "your_time": to_timestamp.strftime("%A, %d %B %Y %I:%M:%S %p"),
+            "gmt_time": to_timestamp.utcnow().strftime("%A, %d %B %Y %I:%M:%S %p"),
+            "difference between your time to utc time": str(diff)[:7],
+        }
+    )
+    return response
 
 
 actions = {
@@ -93,6 +108,7 @@ if __name__ == "__main__":
     #     result = actions.get(screen_name)
     #     print(result(a))
 
+    # result = actions.get(screen_name)
+    # print(result(a))
     result = actions.get(screen_name)
-    print(result(a))
-
+    pprint(result())
